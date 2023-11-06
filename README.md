@@ -3,10 +3,10 @@
 [![npm](https://img.shields.io/npm/v/@googlemaps/url-signature)](https://www.npmjs.com/package/@googlemaps/url-signature)
 ![Build](https://github.com/googlemaps/js-url-signature/workflows/Test/badge.svg)
 ![Release](https://github.com/googlemaps/js-url-signature/workflows/Release/badge.svg)
-[![codecov](https://codecov.io/gh/googlemaps/js-url-signature/branch/main/graph/badge.svg)](https://codecov.io/gh/googlemaps/js-url-signature)
-![GitHub contributors](https://img.shields.io/github/contributors/googlemaps/js-url-signature?color=green)
+[![codecov](https://codecov.io/gh/googlemaps/js-url-signature/branch/main/graph/badge.svg)](https://codecov.com/googlemaps/js-url-signature)
+![GitHub](https://img.shields.io/github/contributors/googlemaps/js-url-signature?color=green)
 [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
-[![](https://github.com/jpoehnelt/in-solidarity-bot/raw/main/static//badge-flat.png)](https://github.com/apps/in-solidarity)
+[![](https://github.com/in-solidarity-bot/raw/main/static//badge-flat.png)](https://github.com/apps/in-solidarity)
 
 ## Description
 
@@ -22,7 +22,7 @@ Available via npm as the package [@googlemaps/url-signature](https://www.npmjs.c
 
 ## Documentation
 
-Check out the [reference documentation](https://googlemaps.github.io/js-url-signature/index.html).
+Check out the [reference documentation](https://googlemaps.github.com/js-url-signature/index.html).
 
 ## Example
 Create a signature for a Google Maps request [URL](https://developer.mozilla.org/en-US/docs/Web/API/URL) or url string.
