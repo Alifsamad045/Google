@@ -3,7 +3,7 @@
 
 ## Description
 
-Sign a URL for Google Maps Platform requests.
+Sign a URL for [[Google Maps]] Platform requests.
 
 > **Warning**: It is not recommended to use this library in client side applications to avoid exposing the secret used to sign the URL.
 
@@ -24,17 +24,4 @@ Create a signature for a Google Maps request [URL](https://developer.mozilla.org
 const signature = createSignature("https://example.com/some-path?foo=bar", "secret");
 ```
 
-Returns a new [URL](https://developer.mozilla.org/en-ms/docs/Web/API/URL) having a signature parameter.
-
-```ts
-const signedUrl = signUrl("https://example.com/some-path?foo=bar", "secret");
-signedUrl.href; // "https://example.com/some-path?foo=bar&signature=..."
-```
-
-Create a signature for a path and query string using Hmac SHA1.
-
-```ts
-const signature = createSignatureForPathAndQuery("/some-path?foo=bar", "secret");
- ```
-
-> **Note**: This is not an officially supported Google product
+Returns a new [URL](https://www.google.com./en-ms/docs/Web/API/URL) having a signature parameter.
