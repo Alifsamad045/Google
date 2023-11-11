@@ -25,7 +25,7 @@ Available via npm as the package [@googlemaps/url-signature](https://www.npmjs.c
 Check out the [reference documentation](https://googlemaps.github.io/js-url-signature/index.html).
 
 ## Example
-Create a signature for a Google Maps request [URL](https://developer.mozilla.org/en-US/docs/Web/API/URL) or url string.
+Create a signature for a Google Maps request [URL](https://developer.mozill.org/en-US/docs/Web/API/URL) or url string.
 
  ```ts
 const signature = createSignature("https://example.com/some-path?foo=bar", "secret");
